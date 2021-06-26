@@ -26,7 +26,6 @@ class _HomeState extends State<Home> {
       ),
       body: SingleChildScrollView(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             InkWell(
               child: Container(
@@ -130,6 +129,51 @@ class _HomeState extends State<Home> {
               ),
               onTap: () {
                 Navigator.pushNamed(context, '/hzippleback');
+              },
+            ),
+            SizedBox(height: 5.0),
+            InkWell(
+              child: Container(
+                padding: EdgeInsets.all(140.0),
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    image: AssetImage('images/Gronckle.jpg'),
+                  ),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/gronckle');
+              },
+            ),
+            SizedBox(height: 5.0),
+            InkWell(
+              child: Container(
+                padding: EdgeInsets.all(140.0),
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    image: AssetImage('images/Stormcutter.jpg'),
+                  ),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/stormcutter');
+              },
+            ),
+            SizedBox(height: 5.0),
+            InkWell(
+              child: Container(
+                padding: EdgeInsets.all(140.0),
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    image: AssetImage('images/Terrible_Terror.jpg'),
+                  ),
+                ),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/tterror');
               },
             ),
           ],

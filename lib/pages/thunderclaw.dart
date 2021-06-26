@@ -17,7 +17,7 @@ class _Thunderclaw extends State<Thunderclaw> {
           style: TextStyle(
             color: Colors.blueGrey[800],
             letterSpacing: 3.0,
-            fontSize: 30.0,
+            fontSize: 35.0,
             fontWeight: FontWeight.bold,
           ),
         ),

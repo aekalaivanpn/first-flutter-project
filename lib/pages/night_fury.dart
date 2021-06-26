@@ -17,7 +17,7 @@ class _NightFuryState extends State<NightFury> {
           style: TextStyle(
             color: Colors.white,
             letterSpacing: 3.0,
-            fontSize: 30.0,
+            fontSize: 35.0,
             fontWeight: FontWeight.bold,
           ),
         ),
